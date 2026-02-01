@@ -110,20 +110,24 @@ export const Loader = ({ onLoadComplete }) => {
         </p>
 
         {/* Title */}
-       <h1
-          className="text-white text-7xl sm:text-8xl md:text-9xl font-black italic tracking-tighter mb-12"
-          style={{ 
-            opacity: textOpacity,
-            filter: `blur(${(1 - textOpacity) * 8}px)`, // Blurs out when progress is low
-            background: "linear-gradient(to bottom, #ffffff 30%, #444444 100%)",
-            WebkitBackgroundClip: "text",
-            WebkitTextFillColor: "transparent",
-            letterSpacing: "-0.05em"
-          }}
-        >
-          SHIVA YADAV  
-        </h1>
-
+      <div className="w-full flex justify-center overflow-visible">
+  <h1
+    className="font-black italic mb-12 whitespace-nowrap text-center leading-none"
+    style={{ 
+      fontSize: "clamp(3.5rem, 9vw, 8.5rem)", // PERFECT responsive size
+      opacity: textOpacity,
+      filter: `blur(${(1 - textOpacity) * 8}px)`,
+      background: "linear-gradient(to bottom, #ffffff 30%, #444444 100%)",
+      WebkitBackgroundClip: "text",
+      WebkitTextFillColor: "transparent",
+      letterSpacing: "-0.04em",
+      paddingRight: "0.25em", // ⭐ FIXES italic cutoff
+      paddingLeft: "0.15em"   // ⭐ balances the slant
+    }}
+  >
+    SHIVA&nbsp;YADAV
+  </h1>
+</div>
         {/* Progress Bar */}
         <div className="w-full max-w-[520px]">
           <div className="h-1 bg-white/20 rounded-full overflow-hidden">
