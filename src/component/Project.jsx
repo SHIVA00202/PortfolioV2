@@ -66,7 +66,23 @@ const projects = [
   ],
   image: "/doctor.png",
   live: "https://doctor-appointment-frontend-ashen.vercel.app/",
-}
+},
+{
+    id: "(04)",
+    title: "E-Summit Website",
+    subtitle: "Official website for IIIT Bhagalpur entrepreneurship summit.",
+    description:
+      "Developed the official website for IIIT Bhubaneswar’s annual entrepreneurship summit with a responsive frontend, real-time updates, and performance optimizations to handle large visitor traffic.",
+    tech: [
+      "ReactJS",
+      "TailwindCSS",
+      "Node.js",
+      "Express",
+      "SEO Optimization",
+    ],
+    image: "/esummit.png",
+    live: "https://esummit.iiitbh.ac.in",
+  }
 
 ];
 
