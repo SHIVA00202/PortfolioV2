@@ -50,7 +50,17 @@ const projects = [
 ,
   
   {
-  id: "(03)",
+    id: "(03)",
+    title: "Enyugma Website",
+    subtitle: "Official techno-cultural fest website of IIIT Bhagalpur.",
+    description:
+      "Designed and developed the official website for IIIT Bhagalpur’s annual techno-cultural fest using ReactJS and TailwindCSS, delivering a responsive interface and scalable backend services to support high traffic during the event.",
+    tech: ["ReactJS", "TailwindCSS", "Node.js", "Express","Figma ","Role-Based Access Control"],
+    image: "/enyugma.png",
+    live: "https://enyugma.iiitbh.ac.in",
+  },
+ {
+  id: "(04)",
   title: "Hospital Management System",
   subtitle: "Full-stack MERN application for hospital operations",
   description:
@@ -66,23 +76,7 @@ const projects = [
   ],
   image: "/doctor.png",
   live: "https://doctor-appointment-frontend-ashen.vercel.app/",
-},
-{
-    id: "(04)",
-    title: "E-Summit Website",
-    subtitle: "Official website for IIIT Bhagalpur entrepreneurship summit.",
-    description:
-      "Developed the official website for IIIT Bhubaneswar’s annual entrepreneurship summit with a responsive frontend, real-time updates, and performance optimizations to handle large visitor traffic.",
-    tech: [
-      "ReactJS",
-      "TailwindCSS",
-      "Node.js",
-      "Express",
-      "SEO Optimization",
-    ],
-    image: "/esummit.png",
-    live: "https://esummit.iiitbh.ac.in",
-  }
+}
 
 ];
 
